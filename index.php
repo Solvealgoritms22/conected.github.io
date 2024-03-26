@@ -48,7 +48,7 @@
             loadinga();
             $.ajax({
                 type: "POST",
-                url: "Default.aspx/Login",
+                url: "https://soft.uasd.edu.do/UASDVirtualGateway/Default.aspx/Login",
                 data: JSON.stringify({txtidbanner: txtidbanner, txtpassword: txtpassword}),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
